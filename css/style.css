@@ -1,0 +1,53 @@
+
+body {
+    padding-top: 92px;
+}
+.logo {
+    padding-left: 25px;
+}
+.navbtn {
+    margin-right: 25px;
+}
+.box-shadow {
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+0 4px 8px 0 rgba(0, 0, 0, .05)
+;
+}
+.bds {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.icone {
+    height: 100px;
+}
+#home-quote {
+ background: url(../images/bg-quote.jpg) center center;
+ background-size: cover;
+}
+.pergunta {
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+.b {
+    text-decoration: none;
+  list-style: none;
+}
+.lista-plano li + li {
+    border-top: 1px solid rgba(0, 0, 0, .2);
+}
+.lista-plano li {
+
+ padding: 1rem;
+}
+@media (max-width: 768px) {
+    #home-quote .display-4 {
+     font-size: 2.5rem;
+    }
+    body {
+  padding-top: 0px;
+    }
+    .fixed-top {
+        position: relative;
+    }
+}
